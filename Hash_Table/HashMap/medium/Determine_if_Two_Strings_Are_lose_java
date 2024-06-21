@@ -1,0 +1,38 @@
+1657. Determine if Two Strings Are Close
+
+https://leetcode.com/problems/determine-if-two-strings-are-close/description/?envType=study-plan-v2&envId=leetcode-75
+
+public boolean closeStrings(String word1, String word2) {
+        // creat two hashMap to store character in word1 and word2
+        HashMap<Character,Integer> map1 = new HashMap<>();
+        HashMap<Character,Integer> map2 = new HashMap<>();
+        // store frequency of word1 character in map1
+        for(int i=0;i<word1.length();i++){
+            char ch = word1.charAt(i);
+            map1.put(ch,map1.getOrDefault(ch,0)+1);
+        }
+        // store frequency of word2 character in map2
+        for(int i=0;i<word2.length();i++){
+            char ch = word2.charAt(i);
+            map2.put(ch,map2.getOrDefault(ch,0)+1);
+        }
+        // if word1 has "abc" and word2 has "abd" then it is not possible so return false
+        if(!map1.keySet().equals(map2.keySet())){
+            return false;
+        }
+        // creat another two hashmap to record frequency of map's frequency
+        HashMap<Integer,Integer> freqMap1 = new HashMap<>();
+        HashMap<Integer,Integer> freqMap2 = new HashMap<>();
+        // store map1's frequency in term of there frequency
+        for(Map.Entry<Character,Integer>e:map1.entrySet()){
+            int i = e.getValue();
+            freqMap1.put(i,freqMap1.getOrDefault(i,0)+1);
+        }
+        // store map2's frequency in term of there frequency
+        for(Map.Entry<Character,Integer>e:map2.entrySet()){
+            int i = e.getValue();
+            freqMap2.put(i,freqMap2.getOrDefault(i,0)+1);
+        }
+        // if both are same then only return true else false
+        return freqMap1.equals(freqMap2);
+    }
