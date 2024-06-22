@@ -1,6 +1,7 @@
 //https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=study-plan-v2&envId=leetcode-75
 
-2390. Removing Stars From a String
+// 2390. Removing Stars From a String
+import java.util.*;
 
 class Solution {
     public String removeStars(String s) {
