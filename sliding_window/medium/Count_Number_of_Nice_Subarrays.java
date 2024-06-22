@@ -1,8 +1,6 @@
-//https://leetcode.com/problems/count-number-of-nice-subarrays/description/?envType=daily-question&envId=2024-06-22
- 
- 1248. Count Number of Nice Subarrays
-
- class Solution {
+// https://leetcode.com/problems/count-number-of-nice-subarrays/description/?envType=daily-question&envId=2024-06-22
+// 1248. Count Number of Nice Subarrays
+class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
         int odd = 0;
         int count = 0;
