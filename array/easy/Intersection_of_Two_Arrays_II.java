@@ -1,6 +1,7 @@
 //https://leetcode.com/problems/intersection-of-two-arrays-ii/description/?envType=daily-question&envId=2024-07-02
 
 // 350. Intersection of Two Arrays II
+import java.util.Arrays;
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         int l1 = nums1.length;
