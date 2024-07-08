@@ -16,6 +16,16 @@ public class LL {
         newNode.next = head;
         head = newNode;
     }
+    public void addLast(int data){
+        if(head==null) return;
+        Node newNode = new Node(data);
+        Node currNode = head;
+        while(currNode.next==null){
+            currNode = currNode.next;
+        }
+        currNode.next = newNode;
+        newNode.next = null;
+    }
     public static void main(String[] args) {
         
     }
