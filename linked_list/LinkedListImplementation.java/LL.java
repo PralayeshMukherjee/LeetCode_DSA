@@ -38,15 +38,28 @@ public class LL {
     public void deleteFirst(){
         head = head.next;
     }
+    public void deleteLast(){
+        Node currNode = head;
+        while(currNode.next.next!=null){
+            currNode = currNode.next;
+        }
+        currNode.next = null;
+        return;
+    }
     public void print(){
         Node currNode = head;
         while (currNode!=null) {
             System.out.println(currNode.data+" -> ");
+            currNode = currNode.next;
         }
         System.out.println("NULL");
     }
     public static void main(String[] args) {
         LL list = new LL();
-        
+        list.addFirst(8);
+        list.addFirst(9);
+        list.addFirst(5);
+        list.addFirst(23);
+        list.print();
     }
 }
