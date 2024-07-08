@@ -38,7 +38,15 @@ public class LL {
     public void deleteFirst(){
         head = head.next;
     }
+    public void print(){
+        Node currNode = head;
+        while (currNode!=null) {
+            System.out.println(currNode.data+" -> ");
+        }
+        System.out.println("NULL");
+    }
     public static void main(String[] args) {
         LL list = new LL();
+        
     }
 }
