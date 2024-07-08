@@ -35,6 +35,9 @@ public class LL {
         }
         System.out.println("the size of the array is:=> "+count);
     }
+    public void deleteFirst(){
+        head = head.next;
+    }
     public static void main(String[] args) {
         
     }
