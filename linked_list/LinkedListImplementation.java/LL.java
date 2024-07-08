@@ -46,6 +46,17 @@ public class LL {
         currNode.next = null;
         return;
     }
+    public void addInPos(int data,int position){
+        Node node = new Node(data);
+        int count = 0;
+        Node currNode = head;
+        while(currNode!=null && count<position){
+            currNode = currNode.next;
+            count++;
+        }
+        node.next = currNode.next.next;
+        currNode.next = node;
+    }
     public void print(){
         Node currNode = head;
         while (currNode!=null) {
