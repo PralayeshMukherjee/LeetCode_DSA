@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/linked-list-cycle-ii/description/
 
 // 142. Linked List Cycle II
-
+import java.util.HashMap;
 class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode temp = head;
