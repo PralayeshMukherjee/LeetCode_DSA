@@ -17,3 +17,5 @@ class Solution {
         return null;
     }
 }
+// time complexity is :- O(n)
+// space complexity is :- O(1)
