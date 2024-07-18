@@ -27,4 +27,4 @@ class Solution {
     }
 }
 
-// time complexity is :- O(2^n) * K
+// time complexity is :- 2^n * K
