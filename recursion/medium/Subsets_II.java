@@ -28,3 +28,4 @@ class Solution {
 }
 
 // time complexity is :- 2^n * K
+// space complexity is :- O(2^n) * O(k)
