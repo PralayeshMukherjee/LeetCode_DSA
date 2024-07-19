@@ -68,3 +68,5 @@ class Solution {
         return ans;
     }
 }
+
+// time complexity is 2^N *K
