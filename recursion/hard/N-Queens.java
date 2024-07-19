@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/n-queens/description/
 
 // 51. N-Queens
-
+import java.util.List;
 class Solution {
     public boolean isPut(int row,int col,char[][] board,int n){
         int dublicatRow1 = row;
