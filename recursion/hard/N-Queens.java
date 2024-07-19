@@ -2,6 +2,7 @@
 
 // 51. N-Queens
 import java.util.List;
+import java.util.ArrayList;;
 class Solution {
     public boolean isPut(int row,int col,char[][] board,int n){
         int dublicatRow1 = row;
