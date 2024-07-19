@@ -70,3 +70,4 @@ class Solution {
 }
 
 // time complexity is 2^N *K
+// space complexity is O(n)*O(k)
