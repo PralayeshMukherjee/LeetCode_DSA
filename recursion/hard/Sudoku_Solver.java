@@ -41,3 +41,4 @@ class Solution {
         f(board);
     }
 }
+// time complexity is :- 2^n * k
