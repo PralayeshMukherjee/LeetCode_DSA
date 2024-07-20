@@ -42,3 +42,4 @@ class Solution {
     }
 }
 // time complexity is :- 2^n * k
+// space complexity is :- O(n) * O(k)
