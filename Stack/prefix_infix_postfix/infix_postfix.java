@@ -1,4 +1,6 @@
-class Solution {
+package Stack.prefix_infix_postfix;
+import java.util.Stack;
+class infix_postfix {
     // Function to convert an infix expression to a postfix expression.
     public static int priority(char ch){
         if(ch=='^'){
