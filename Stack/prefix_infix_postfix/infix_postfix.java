@@ -44,3 +44,4 @@ class infix_postfix {
     }
 }
 // time complexity is:- O(n)*O(n)
+// space complexity is :- O(n) * O(n)
