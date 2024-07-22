@@ -1,7 +1,6 @@
 package Stack.prefix_infix_postfix;
 
 import java.util.Stack;
-
 public class Infixtoprefix{
     public static String f(String s){
         StringBuilder sb = new StringBuilder(s);
