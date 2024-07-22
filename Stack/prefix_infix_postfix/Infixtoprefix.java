@@ -52,3 +52,4 @@ public class Infixtoprefix{
     }
 }
 // time complexity is :- O(n) * O(n)
+// space complexity is :- O(n) * O(K)
