@@ -51,3 +51,4 @@ public class Infixtoprefix{
         System.out.println(f(s));
     }
 }
+// time complexity is :- O(n) * O(n)
