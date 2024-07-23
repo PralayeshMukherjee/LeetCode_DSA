@@ -23,5 +23,6 @@ public class PostfixToPrefix {
     }
     public static void main(String[] args) {
         String post_exp = "ABC/-AK/L-*";
+        System.out.println(postToPre(post_exp));
     }
 }
