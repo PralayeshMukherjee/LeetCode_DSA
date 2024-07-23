@@ -26,3 +26,4 @@ class Solution{
         return list;
     }
 }
+// time complexity is :- O(2n)
