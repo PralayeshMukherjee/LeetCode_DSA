@@ -23,6 +23,6 @@ public class PostfixToInfix {
     }
     public static void main(String[] args) {
         String exp = "AB-DE+F*/";
-
+        System.out.println(postToInfix(exp));
     }
 }
