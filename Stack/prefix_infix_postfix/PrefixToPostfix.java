@@ -2,8 +2,8 @@ package Stack.prefix_infix_postfix;
 
 import java.util.Stack;
 
-public class PrefixToInfix {
-    public static String preToInfix(String pre_exp) {
+public class PrefixToPostfix {
+    public static String preToPost(String pre_exp) {
         // code here
         Stack<String> st = new Stack<>();
         int i = pre_exp.length()-1;
@@ -14,7 +14,7 @@ public class PrefixToInfix {
             }else{
                 String t1 = st.pop();
                 String t2 = st.pop();
-                String con = "("+t1+ch+t2+")";
+                String con = t1+t2+ch;
                 st.push(con);
             }
             i--;
@@ -22,8 +22,8 @@ public class PrefixToInfix {
         return st.peek();
     }
     public static void main(String[] args) {
-        String pre_exp = "*-A/BC-/AKL";
-        System.out.println(preToInfix(pre_exp));
+        String pre_exp = "*-A/BC-/AKL\r\n";
+        System.out.println(preToPost(pre_exp));
     }
 }
 // time complexity is :- O(n) - best case 

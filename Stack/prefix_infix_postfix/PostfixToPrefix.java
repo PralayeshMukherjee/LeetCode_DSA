@@ -2,28 +2,28 @@ package Stack.prefix_infix_postfix;
 
 import java.util.Stack;
 
-public class PrefixToInfix {
-    public static String preToInfix(String pre_exp) {
+public class PostfixToPrefix {
+    public static String postToPre(String post_exp) {
         // code here
         Stack<String> st = new Stack<>();
-        int i = pre_exp.length()-1;
-        while(i>=0){
-            char ch = pre_exp.charAt(i);
+        int i = 0;
+        while(i<post_exp.length()){
+            char ch = post_exp.charAt(i);
             if((ch>='A' && ch<='Z') || (ch>='a' && ch<='z') || (ch>='0' && ch<='9')){
                 st.push(String.valueOf(ch));
             }else{
                 String t1 = st.pop();
                 String t2 = st.pop();
-                String con = "("+t1+ch+t2+")";
+                String con = ch+t2+t1;
                 st.push(con);
             }
-            i--;
+            i++;
         }
         return st.peek();
     }
     public static void main(String[] args) {
-        String pre_exp = "*-A/BC-/AKL";
-        System.out.println(preToInfix(pre_exp));
+        String post_exp = "ABC/-AK/L-*";
+        System.out.println(postToPre(post_exp));
     }
 }
 // time complexity is :- O(n) - best case 
