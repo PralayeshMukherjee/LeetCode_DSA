@@ -29,3 +29,4 @@ public class PostfixToInfix {
 
 // time complexity is :- O(n) - best case 
 //                       O(n)+O(N1+N2) worst case
+// space complexity is :- O(n)
