@@ -2,6 +2,7 @@
 
 // Smallest number on left
 import java.util.Stack;
+import java.util.List;
 class Solution{
     static List<Integer> leftSmaller(int n, int a[])
     {
