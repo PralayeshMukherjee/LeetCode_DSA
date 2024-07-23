@@ -26,3 +26,5 @@ public class PrefixToInfix {
         System.out.println(preToInfix(pre_exp));
     }
 }
+// time complexity is :- O(n) - best case 
+//                       O(n)+O(N1+N2) worst case
