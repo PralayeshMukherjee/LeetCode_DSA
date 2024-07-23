@@ -26,4 +26,4 @@ class Solution {
     }
 }
 // time complexity is :- O(4N)
-// space complexity is :- O(2n) * O(n)
+// space complexity is :- O(2n) + O(n)
