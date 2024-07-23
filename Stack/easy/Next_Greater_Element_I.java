@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/next-greater-element-i/description/
 
 // 496. Next Greater Element I
+import java.util.HashMap;
 import java.util.Stack;
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
