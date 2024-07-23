@@ -1,6 +1,7 @@
 // https://www.geeksforgeeks.org/problems/smallest-number-on-left3403/1
 
 // Smallest number on left
+import java.util.Stack;
 class Solution{
     static List<Integer> leftSmaller(int n, int a[])
     {
