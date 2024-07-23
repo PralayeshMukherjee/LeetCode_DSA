@@ -23,5 +23,6 @@ public class PrefixToInfix {
     }
     public static void main(String[] args) {
         String pre_exp = "*-A/BC-/AKL";
+        System.out.println(preToInfix(pre_exp));
     }
 }
