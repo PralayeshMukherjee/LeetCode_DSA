@@ -26,3 +26,5 @@ public class PostfixToPrefix {
         System.out.println(postToPre(post_exp));
     }
 }
+// time complexity is :- O(n) - best case 
+//                       O(n)+O(N1+N2) worst case
