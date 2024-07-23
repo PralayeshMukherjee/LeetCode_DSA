@@ -27,3 +27,4 @@ class Solution{
     }
 }
 // time complexity is :- O(2n)
+// space complexity is :- O(n) + O(n)
