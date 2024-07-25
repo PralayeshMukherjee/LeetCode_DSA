@@ -30,3 +30,4 @@ class Solution {
         return total;
     }
 }
+// time complexity is :- O(2n) + O(n) = O(3n)
