@@ -31,3 +31,4 @@ class Solution {
     }
 }
 // time complexity is :- O(2n) + O(n) = O(3n)
+// space complexity is :- O(2n)
