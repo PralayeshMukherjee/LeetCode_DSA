@@ -66,3 +66,4 @@ class Solution {
         return arr;
     }
 }
+// time complexity is :- O(n)+O(n)+(n)= O(3n)
