@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 
 // 84. Largest Rectangle in Histogram
-
+import java.util.*;
 //                                 Approach 1
 class Solution {
     public void nse(int[]heights,List<Integer> arr){
