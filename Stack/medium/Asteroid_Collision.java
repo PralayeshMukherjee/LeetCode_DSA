@@ -67,3 +67,4 @@ class Solution {
     }
 }
 // time complexity is :- O(n)+O(n)+(n)= O(3n)
+// space complexity is : O(n)+O(n) = O(2n)
