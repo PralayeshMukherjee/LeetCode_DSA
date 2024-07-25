@@ -39,3 +39,32 @@ class Solution {
         return arr;
     }
 }
+// approach two
+class Solution {
+    public int[] asteroidCollision(int[] asteroids) {
+        Stack<Integer> st = new Stack<>();
+        for(int i=0;i<asteroids.length;i++){
+            if(asteroids[i]>0){
+                st.push(asteroids[i]);
+            }else{
+                while(!st.isEmpty() && st.peek()>0 && st.peek()<Math.abs(asteroids[i])){
+                    st.pop();
+                }
+                if(!st.isEmpty() && st.peek()==Math.abs(asteroids[i])){
+                    st.pop();
+                }else if(st.isEmpty() || st.peek()<0){
+                    st.push(asteroids[i]);
+                }
+            }
+        }
+        int arr[] = new int[st.size()];
+        int i = st.size()-1;
+        while(!st.isEmpty() && i>=0){
+            arr[i] = st.pop();
+            i--;
+        }
+        return arr;
+    }
+}
+// time complexity is :- O(n)+O(n)+(n)= O(3n)
+// space complexity is : O(n)+O(n) = O(2n)
