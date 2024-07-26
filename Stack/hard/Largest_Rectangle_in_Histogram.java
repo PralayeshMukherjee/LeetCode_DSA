@@ -50,3 +50,30 @@ class Solution {
         return max;
     }
 }
+
+//                                          Approach 2 (best solution)
+class Solution {
+    public int largestRectangleArea(int[] heights) {
+        Stack<Integer> st = new Stack<>();
+        int n = heights.length;
+        int maxArea = 0;
+        for(int i=0;i<n;i++){
+            while(!st.isEmpty() && heights[st.peek()]>heights[i]){
+                int element = st.pop();
+                int nse = i;
+                int pse = !st.isEmpty() ? st.peek() : -1;
+                maxArea = Math.max(maxArea,heights[element]*(nse-pse-1));
+            }
+            st.push(i);
+        }
+        while(!st.isEmpty()){
+            int element = st.pop();
+            int nse = n;
+            int pse = !st.isEmpty() ? st.peek() : -1;
+            maxArea = Math.max(maxArea,heights[element]*(nse-pse-1));
+        }
+        return maxArea;
+    }
+}
+// time complexity is:- O(n)+O(n) = O(2n)
+// space complexity is:- O(n)
