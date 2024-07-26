@@ -50,3 +50,5 @@ class Solution {
         return max;
     }
 }
+
+//                                          Approach 2 (best solution)
