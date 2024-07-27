@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/maximal-rectangle/description/
 
 // 85. Maximal Rectangle
-
+import java.util.*;
 class Solution {
     public int lHist(int[] heights) {
         Stack<Integer> st = new Stack<>();
