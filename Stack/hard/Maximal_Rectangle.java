@@ -42,3 +42,4 @@ class Solution {
     }
 }
 // time complexity is :- O(n*m) + (2m)
+// space complexity is :- O(m)+O(m) = O(2m)
