@@ -41,3 +41,4 @@ class Solution {
         return ans;
     }
 }
+// time complexity is :- O(n*m) + (2m)
