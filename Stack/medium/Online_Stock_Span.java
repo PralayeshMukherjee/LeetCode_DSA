@@ -1,6 +1,7 @@
 // https://leetcode.com/problems/online-stock-span/description/
 
 // 901. Online Stock Span
+import java.util.Stack;
 class Pair{
     int x;
     int span;
