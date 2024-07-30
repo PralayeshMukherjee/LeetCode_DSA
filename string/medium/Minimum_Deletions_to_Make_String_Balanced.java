@@ -16,3 +16,4 @@ class Solution {
         return answer;
     }
 }
+// time complextiy is :- O(n)
