@@ -15,3 +15,5 @@ class Solution {
         return count;
     }
 }
+
+// time complexity is :- O(n)
