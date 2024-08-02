@@ -19,3 +19,4 @@ class Solution {
         return k - mx;
     }
 }
+// time complexity is :- O(n)
