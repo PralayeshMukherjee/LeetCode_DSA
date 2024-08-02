@@ -20,3 +20,4 @@ class Solution {
     }
 }
 // time complexity is :- O(n)
+// space complexity is :- O(1)
