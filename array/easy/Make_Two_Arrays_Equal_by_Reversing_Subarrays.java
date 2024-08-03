@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/description/?envType=daily-question&envId=2024-08-03
 
 // 1460. Make Two Arrays Equal by Reversing Subarrays
-
+import java.util.Arrays;
 class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
         int[] cnt1 = new int[1001];
