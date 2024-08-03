@@ -16,3 +16,4 @@ class Solution {
     }
 }
 // time complexity is :- O(n)
+// space complexity is :- O(n)+O(n) = O(2n)
