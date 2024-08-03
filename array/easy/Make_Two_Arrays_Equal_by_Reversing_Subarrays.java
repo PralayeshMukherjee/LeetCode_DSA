@@ -15,3 +15,4 @@ class Solution {
         return Arrays.equals(cnt1, cnt2);
     }
 }
+// time complexity is :- O(n)
