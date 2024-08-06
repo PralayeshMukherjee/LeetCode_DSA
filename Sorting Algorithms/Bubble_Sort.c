@@ -38,3 +38,5 @@ int main(){
 
     return 0;
 }
+// time complexity is :- O(n^2)
+// space complexity is :- O(1)
