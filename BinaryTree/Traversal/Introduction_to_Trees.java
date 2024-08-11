@@ -8,3 +8,4 @@ class Solution {
 }
 
 // time complexity is :- O(1)
+// space complexity is :- O(1)
