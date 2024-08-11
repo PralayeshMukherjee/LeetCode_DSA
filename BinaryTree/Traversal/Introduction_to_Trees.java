@@ -6,3 +6,5 @@ class Solution {
         return (int)Math.pow(2,i-1);
     }
 }
+
+// time complexity is :- O(1)
