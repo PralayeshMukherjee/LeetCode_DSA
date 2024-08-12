@@ -33,3 +33,4 @@ public class Postorder_Traversal {
 }
 
 // time complexity is :- O(n)
+// space complexity is :- O(n)+O(n) = O(2n)
