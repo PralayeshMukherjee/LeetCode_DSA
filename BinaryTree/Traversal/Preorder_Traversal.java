@@ -6,7 +6,18 @@ package BinaryTree.Traversal;
 
 import java.util.ArrayList;
 import java.util.List;
-
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
 public class Preorder_Traversal {
     public void preorderTraversalHelper(TreeNode root,List<Integer> list){
         if(root==null) return;
