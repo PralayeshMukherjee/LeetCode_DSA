@@ -31,3 +31,5 @@ public class Postorder_Traversal {
         return list;
     }
 }
+
+// time complexity is :- O(n)
