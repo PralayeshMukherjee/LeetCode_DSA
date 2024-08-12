@@ -32,3 +32,5 @@ public class Inorder_Traversal {
         return list;
     }
 }
+
+// time complexity is :- O(n)
