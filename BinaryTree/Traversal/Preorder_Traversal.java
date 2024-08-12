@@ -32,3 +32,5 @@ public class Preorder_Traversal {
         return list;
     }
 }
+
+// time complexity is:- O(n)
