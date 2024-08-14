@@ -17,3 +17,4 @@ public class Balanced_Binary_Tree {
         return maxDepth(root) !=-1;
     }
 }
+// time complexity is :- O(n)
