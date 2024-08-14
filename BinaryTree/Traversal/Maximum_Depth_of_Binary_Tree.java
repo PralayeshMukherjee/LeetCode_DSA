@@ -11,3 +11,4 @@ public class Maximum_Depth_of_Binary_Tree {
         return Math.max(a,b)+1;
     }
 }
+// time complexity is :- O(n)
