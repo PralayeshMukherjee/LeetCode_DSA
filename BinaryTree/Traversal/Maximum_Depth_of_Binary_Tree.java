@@ -12,3 +12,4 @@ public class Maximum_Depth_of_Binary_Tree {
     }
 }
 // time complexity is :- O(n)
+// space complexity is :- O(1)
