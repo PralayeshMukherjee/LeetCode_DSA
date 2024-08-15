@@ -10,3 +10,4 @@ public class Same_Tree {
         return p.val==q.val && isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
     }
 }
+// time complexity is :- O(n)
