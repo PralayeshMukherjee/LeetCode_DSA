@@ -18,3 +18,4 @@ public:
         return diameter;
     }
 };
+// time complexity is :- O(n)
