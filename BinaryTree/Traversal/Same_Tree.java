@@ -11,3 +11,4 @@ public class Same_Tree {
     }
 }
 // time complexity is :- O(n)
+// space complexity is :- O(n) for auxilary space
