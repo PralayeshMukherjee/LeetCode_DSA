@@ -18,4 +18,4 @@ public class Balanced_Binary_Tree {
     }
 }
 // time complexity is :- O(n)
-// space complexity is :- O(n) for the auxilary space complexity
+// space complexity is :- O(H) for the auxilary space complexity O(log H)
