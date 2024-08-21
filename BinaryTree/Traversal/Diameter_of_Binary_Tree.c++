@@ -19,4 +19,4 @@ public:
     }
 };
 // time complexity is :- O(n)
-// space complexity is :- O(n)
+// space complexity is :- O(H) for the worst case senario but for the best case it is O(log H)
