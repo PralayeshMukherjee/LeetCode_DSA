@@ -33,3 +33,4 @@ public class Quick {
     }
 }
 // time complexity in best case is:- O(nlog n) and for the best case it is O(n^2)
+// space complexity is O(1)
