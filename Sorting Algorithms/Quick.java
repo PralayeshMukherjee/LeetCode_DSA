@@ -32,3 +32,4 @@ public class Quick {
         System.out.println(Arrays.toString(arr));
     }
 }
+// time complexity in best case is:- O(nlog n) and for the best case it is O(n^2)
